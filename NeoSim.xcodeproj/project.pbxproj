@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4E93612BD2FB6400AD990A /* NeoSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93602BD2FB6400AD990A /* NeoSimApp.swift */; };
+		FF4E93632BD2FB6400AD990A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93622BD2FB6400AD990A /* ContentView.swift */; };
+		FF4E93652BD2FB6600AD990A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93642BD2FB6600AD990A /* Assets.xcassets */; };
+		FF4E93682BD2FB6600AD990A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93672BD2FB6600AD990A /* Preview Assets.xcassets */; };
+		FF4E93722BD2FB6700AD990A /* NeoSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93712BD2FB6700AD990A /* NeoSimTests.swift */; };
+		FF4E937C2BD2FB6700AD990A /* NeoSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E937B2BD2FB6700AD990A /* NeoSimUITests.swift */; };
+		FF4E937E2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E937D2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4E936E2BD2FB6700AD990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4E93552BD2FB6300AD990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4E935C2BD2FB6400AD990A;
+			remoteInfo = NeoSim;
+		};
+		FF4E93782BD2FB6700AD990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4E93552BD2FB6300AD990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4E935C2BD2FB6400AD990A;
+			remoteInfo = NeoSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF4E935D2BD2FB6400AD990A /* NeoSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4E93602BD2FB6400AD990A /* NeoSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimApp.swift; sourceTree = "<group>"; };
+		FF4E93622BD2FB6400AD990A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF4E93642BD2FB6600AD990A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4E93672BD2FB6600AD990A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF4E936D2BD2FB6700AD990A /* NeoSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4E93712BD2FB6700AD990A /* NeoSimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimTests.swift; sourceTree = "<group>"; };
+		FF4E93772BD2FB6700AD990A /* NeoSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4E937B2BD2FB6700AD990A /* NeoSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimUITests.swift; sourceTree = "<group>"; };
+		FF4E937D2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4E935A2BD2FB6400AD990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4E936A2BD2FB6700AD990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4E93742BD2FB6700AD990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4E93542BD2FB6300AD990A = {
+			isa = PBXGroup;
+			children = (
+				FF4E935F2BD2FB6400AD990A /* NeoSim */,
+				FF4E93702BD2FB6700AD990A /* NeoSimTests */,
+				FF4E937A2BD2FB6700AD990A /* NeoSimUITests */,
+				FF4E935E2BD2FB6400AD990A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4E935E2BD2FB6400AD990A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E935D2BD2FB6400AD990A /* NeoSim.app */,
+				FF4E936D2BD2FB6700AD990A /* NeoSimTests.xctest */,
+				FF4E93772BD2FB6700AD990A /* NeoSimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4E935F2BD2FB6400AD990A /* NeoSim */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93602BD2FB6400AD990A /* NeoSimApp.swift */,
+				FF4E93622BD2FB6400AD990A /* ContentView.swift */,
+				FF4E93642BD2FB6600AD990A /* Assets.xcassets */,
+				FF4E93662BD2FB6600AD990A /* Preview Content */,
+			);
+			path = NeoSim;
+			sourceTree = "<group>";
+		};
+		FF4E93662BD2FB6600AD990A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93672BD2FB6600AD990A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF4E93702BD2FB6700AD990A /* NeoSimTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93712BD2FB6700AD990A /* NeoSimTests.swift */,
+			);
+			path = NeoSimTests;
+			sourceTree = "<group>";
+		};
+		FF4E937A2BD2FB6700AD990A /* NeoSimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E937B2BD2FB6700AD990A /* NeoSimUITests.swift */,
+				FF4E937D2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift */,
+			);
+			path = NeoSimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4E935C2BD2FB6400AD990A /* NeoSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4E93812BD2FB6700AD990A /* Build configuration list for PBXNativeTarget "NeoSim" */;
+			buildPhases = (
+				FF4E93592BD2FB6400AD990A /* Sources */,
+				FF4E935A2BD2FB6400AD990A /* Frameworks */,
+				FF4E935B2BD2FB6400AD990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoSim;
+			productName = NeoSim;
+			productReference = FF4E935D2BD2FB6400AD990A /* NeoSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4E936C2BD2FB6700AD990A /* NeoSimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4E93842BD2FB6700AD990A /* Build configuration list for PBXNativeTarget "NeoSimTests" */;
+			buildPhases = (
+				FF4E93692BD2FB6700AD990A /* Sources */,
+				FF4E936A2BD2FB6700AD990A /* Frameworks */,
+				FF4E936B2BD2FB6700AD990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4E936F2BD2FB6700AD990A /* PBXTargetDependency */,
+			);
+			name = NeoSimTests;
+			productName = NeoSimTests;
+			productReference = FF4E936D2BD2FB6700AD990A /* NeoSimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF4E93762BD2FB6700AD990A /* NeoSimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4E93872BD2FB6700AD990A /* Build configuration list for PBXNativeTarget "NeoSimUITests" */;
+			buildPhases = (
+				FF4E93732BD2FB6700AD990A /* Sources */,
+				FF4E93742BD2FB6700AD990A /* Frameworks */,
+				FF4E93752BD2FB6700AD990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4E93792BD2FB6700AD990A /* PBXTargetDependency */,
+			);
+			name = NeoSimUITests;
+			productName = NeoSimUITests;
+			productReference = FF4E93772BD2FB6700AD990A /* NeoSimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4E93552BD2FB6300AD990A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FF4E935C2BD2FB6400AD990A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FF4E936C2BD2FB6700AD990A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FF4E935C2BD2FB6400AD990A;
+					};
+					FF4E93762BD2FB6700AD990A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FF4E935C2BD2FB6400AD990A;
+					};
+				};
+			};
+			buildConfigurationList = FF4E93582BD2FB6300AD990A /* Build configuration list for PBXProject "NeoSim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4E93542BD2FB6300AD990A;
+			productRefGroup = FF4E935E2BD2FB6400AD990A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4E935C2BD2FB6400AD990A /* NeoSim */,
+				FF4E936C2BD2FB6700AD990A /* NeoSimTests */,
+				FF4E93762BD2FB6700AD990A /* NeoSimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4E935B2BD2FB6400AD990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4E93682BD2FB6600AD990A /* Preview Assets.xcassets in Resources */,
+				FF4E93652BD2FB6600AD990A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4E936B2BD2FB6700AD990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4E93752BD2FB6700AD990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4E93592BD2FB6400AD990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4E93632BD2FB6400AD990A /* ContentView.swift in Sources */,
+				FF4E93612BD2FB6400AD990A /* NeoSimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4E93692BD2FB6700AD990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4E93722BD2FB6700AD990A /* NeoSimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4E93732BD2FB6700AD990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4E937C2BD2FB6700AD990A /* NeoSimUITests.swift in Sources */,
+				FF4E937E2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4E936F2BD2FB6700AD990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4E935C2BD2FB6400AD990A /* NeoSim */;
+			targetProxy = FF4E936E2BD2FB6700AD990A /* PBXContainerItemProxy */;
+		};
+		FF4E93792BD2FB6700AD990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4E935C2BD2FB6400AD990A /* NeoSim */;
+			targetProxy = FF4E93782BD2FB6700AD990A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF4E937F2BD2FB6700AD990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4E93802BD2FB6700AD990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4E93822BD2FB6700AD990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoSim/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9LZT27D3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF4E93832BD2FB6700AD990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoSim/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9LZT27D3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF4E93852BD2FB6700AD990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9LZT27D3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoSim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoSim";
+			};
+			name = Debug;
+		};
+		FF4E93862BD2FB6700AD990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9LZT27D3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoSim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoSim";
+			};
+			name = Release;
+		};
+		FF4E93882BD2FB6700AD990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9LZT27D3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoSim;
+			};
+			name = Debug;
+		};
+		FF4E93892BD2FB6700AD990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9LZT27D3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoSim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4E93582BD2FB6300AD990A /* Build configuration list for PBXProject "NeoSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4E937F2BD2FB6700AD990A /* Debug */,
+				FF4E93802BD2FB6700AD990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4E93812BD2FB6700AD990A /* Build configuration list for PBXNativeTarget "NeoSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4E93822BD2FB6700AD990A /* Debug */,
+				FF4E93832BD2FB6700AD990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4E93842BD2FB6700AD990A /* Build configuration list for PBXNativeTarget "NeoSimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4E93852BD2FB6700AD990A /* Debug */,
+				FF4E93862BD2FB6700AD990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4E93872BD2FB6700AD990A /* Build configuration list for PBXNativeTarget "NeoSimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4E93882BD2FB6700AD990A /* Debug */,
+				FF4E93892BD2FB6700AD990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4E93552BD2FB6300AD990A /* Project object */;
+}
