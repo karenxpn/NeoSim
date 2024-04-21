@@ -22,6 +22,8 @@
 		FF4E93962BD4FC3000AD990A /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = FF4E93952BD4FC3000AD990A /* FirebaseFunctions */; };
 		FF4E93982BD4FC3000AD990A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FF4E93972BD4FC3000AD990A /* FirebaseMessaging */; };
 		FF4E939A2BD4FC3000AD990A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FF4E93992BD4FC3000AD990A /* FirebaseStorage */; };
+		FF4E939C2BD4FC9400AD990A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF4E939B2BD4FC9400AD990A /* GoogleService-Info.plist */; };
+		FF4E939E2BD4FCAE00AD990A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E939D2BD4FCAE00AD990A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		FF4E937B2BD2FB6700AD990A /* NeoSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimUITests.swift; sourceTree = "<group>"; };
 		FF4E937D2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF4E938A2BD4FB6C00AD990A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FF4E939B2BD4FC9400AD990A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "NeoSim/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FF4E939D2BD4FCAE00AD990A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +118,9 @@
 				FF4E93602BD2FB6400AD990A /* NeoSimApp.swift */,
 				FF4E93622BD2FB6400AD990A /* ContentView.swift */,
 				FF4E93642BD2FB6600AD990A /* Assets.xcassets */,
+				FF4E939B2BD4FC9400AD990A /* GoogleService-Info.plist */,
 				FF4E93662BD2FB6600AD990A /* Preview Content */,
+				FF4E939D2BD4FCAE00AD990A /* AppDelegate.swift */,
 			);
 			path = NeoSim;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF4E93682BD2FB6600AD990A /* Preview Assets.xcassets in Resources */,
+				FF4E939C2BD4FC9400AD990A /* GoogleService-Info.plist in Resources */,
 				FF4E938B2BD4FB6C00AD990A /* .gitignore in Resources */,
 				FF4E93652BD2FB6600AD990A /* Assets.xcassets in Resources */,
 			);
@@ -287,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4E939E2BD4FCAE00AD990A /* AppDelegate.swift in Sources */,
 				FF4E93632BD2FB6400AD990A /* ContentView.swift in Sources */,
 				FF4E93612BD2FB6400AD990A /* NeoSimApp.swift in Sources */,
 			);
