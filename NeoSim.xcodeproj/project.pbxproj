@@ -14,6 +14,7 @@
 		FF4E93722BD2FB6700AD990A /* NeoSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93712BD2FB6700AD990A /* NeoSimTests.swift */; };
 		FF4E937C2BD2FB6700AD990A /* NeoSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E937B2BD2FB6700AD990A /* NeoSimUITests.swift */; };
 		FF4E937E2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E937D2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift */; };
+		FF4E938B2BD4FB6C00AD990A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FF4E938A2BD4FB6C00AD990A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FF4E93772BD2FB6700AD990A /* NeoSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4E937B2BD2FB6700AD990A /* NeoSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimUITests.swift; sourceTree = "<group>"; };
 		FF4E937D2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF4E938A2BD4FB6C00AD990A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		FF4E93542BD2FB6300AD990A = {
 			isa = PBXGroup;
 			children = (
+				FF4E938A2BD4FB6C00AD990A /* .gitignore */,
 				FF4E935F2BD2FB6400AD990A /* NeoSim */,
 				FF4E93702BD2FB6700AD990A /* NeoSimTests */,
 				FF4E937A2BD2FB6700AD990A /* NeoSimUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF4E93682BD2FB6600AD990A /* Preview Assets.xcassets in Resources */,
+				FF4E938B2BD4FB6C00AD990A /* .gitignore in Resources */,
 				FF4E93652BD2FB6600AD990A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
