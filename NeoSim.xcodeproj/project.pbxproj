@@ -24,6 +24,25 @@
 		FF4E939A2BD4FC3000AD990A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FF4E93992BD4FC3000AD990A /* FirebaseStorage */; };
 		FF4E939C2BD4FC9400AD990A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF4E939B2BD4FC9400AD990A /* GoogleService-Info.plist */; };
 		FF4E939E2BD4FCAE00AD990A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E939D2BD4FCAE00AD990A /* AppDelegate.swift */; };
+		FF4E93A62BD65E9700AD990A /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93A52BD65E9700AD990A /* Introduction.swift */; };
+		FF4E93A82BD65FA800AD990A /* IntroductionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93A72BD65FA800AD990A /* IntroductionPage.swift */; };
+		FF4E93AA2BD65FF200AD990A /* IntroductionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93A92BD65FF200AD990A /* IntroductionModel.swift */; };
+		FF4E93AC2BD6604000AD990A /* PreviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93AB2BD6604000AD990A /* PreviewModels.swift */; };
+		FF4E93AE2BD660B700AD990A /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93AD2BD660B700AD990A /* Credentials.swift */; };
+		FF4E93B12BD6611D00AD990A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF4E93B02BD6611D00AD990A /* SDWebImageSwiftUI */; };
+		FF4E93B32BD6613400AD990A /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93B22BD6613400AD990A /* ImageHelper.swift */; };
+		FF4E93B52BD662A200AD990A /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93B42BD662A200AD990A /* TextHelper.swift */; };
+		FF4E93B72BD662F900AD990A /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93B62BD662F900AD990A /* Enums.swift */; };
+		FF4E93BD2BD663E400AD990A /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93B92BD663E300AD990A /* Gilroy-Regular.ttf */; };
+		FF4E93BE2BD663E400AD990A /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93BA2BD663E300AD990A /* Gilroy-Medium.ttf */; };
+		FF4E93BF2BD663E400AD990A /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93BB2BD663E400AD990A /* Gilroy-SemiBold.ttf */; };
+		FF4E93C02BD663E400AD990A /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93BC2BD663E400AD990A /* Gilroy-Bold.ttf */; };
+		FF4E93C32BD6671A00AD990A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93C22BD6671A00AD990A /* AuthService.swift */; };
+		FF4E93C52BD6677A00AD990A /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93C42BD6677A00AD990A /* APIHelper.swift */; };
+		FF4E93C72BD6685100AD990A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93C62BD6685100AD990A /* AuthViewModel.swift */; };
+		FF4E93C92BD668A400AD990A /* AlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93C82BD668A400AD990A /* AlertViewModel.swift */; };
+		FF4E93CD2BD66B3C00AD990A /* ButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */; };
+		FF4E93D02BD66EB800AD990A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93CE2BD66EB800AD990A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +76,25 @@
 		FF4E938A2BD4FB6C00AD990A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FF4E939B2BD4FC9400AD990A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "NeoSim/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FF4E939D2BD4FCAE00AD990A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4E93A52BD65E9700AD990A /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		FF4E93A72BD65FA800AD990A /* IntroductionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionPage.swift; sourceTree = "<group>"; };
+		FF4E93A92BD65FF200AD990A /* IntroductionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionModel.swift; sourceTree = "<group>"; };
+		FF4E93AB2BD6604000AD990A /* PreviewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewModels.swift; sourceTree = "<group>"; };
+		FF4E93AD2BD660B700AD990A /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		FF4E93B22BD6613400AD990A /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		FF4E93B42BD662A200AD990A /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
+		FF4E93B62BD662F900AD990A /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		FF4E93B92BD663E300AD990A /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		FF4E93BA2BD663E300AD990A /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		FF4E93BB2BD663E400AD990A /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		FF4E93BC2BD663E400AD990A /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		FF4E93C12BD6642700AD990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FF4E93C22BD6671A00AD990A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		FF4E93C42BD6677A00AD990A /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		FF4E93C62BD6685100AD990A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		FF4E93C82BD668A400AD990A /* AlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModel.swift; sourceTree = "<group>"; };
+		FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHelper.swift; sourceTree = "<group>"; };
+		FF4E93CF2BD66EB800AD990A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +106,7 @@
 				FF4E938E2BD4FC3000AD990A /* FirebaseAnalytics in Frameworks */,
 				FF4E93902BD4FC3000AD990A /* FirebaseAuth in Frameworks */,
 				FF4E93962BD4FC3000AD990A /* FirebaseFunctions in Frameworks */,
+				FF4E93B12BD6611D00AD990A /* SDWebImageSwiftUI in Frameworks */,
 				FF4E939A2BD4FC3000AD990A /* FirebaseStorage in Frameworks */,
 				FF4E93922BD4FC3000AD990A /* FirebaseFirestore in Frameworks */,
 				FF4E93942BD4FC3000AD990A /* FirebaseFirestoreSwift in Frameworks */,
@@ -115,12 +154,21 @@
 		FF4E935F2BD2FB6400AD990A /* NeoSim */ = {
 			isa = PBXGroup;
 			children = (
+				FF4E93C12BD6642700AD990A /* Info.plist */,
+				FF4E93B82BD663D700AD990A /* font */,
+				FF4E93A32BD65E5100AD990A /* Models */,
+				FF4E93A22BD65E4900AD990A /* Services */,
+				FF4E93A12BD65E4400AD990A /* ViewModels */,
+				FF4E93A02BD65E3F00AD990A /* Views */,
+				FF4E939F2BD65E3900AD990A /* Utils */,
 				FF4E93602BD2FB6400AD990A /* NeoSimApp.swift */,
 				FF4E93622BD2FB6400AD990A /* ContentView.swift */,
 				FF4E93642BD2FB6600AD990A /* Assets.xcassets */,
 				FF4E939B2BD4FC9400AD990A /* GoogleService-Info.plist */,
 				FF4E93662BD2FB6600AD990A /* Preview Content */,
 				FF4E939D2BD4FCAE00AD990A /* AppDelegate.swift */,
+				FF4E93AD2BD660B700AD990A /* Credentials.swift */,
+				FF4E93CE2BD66EB800AD990A /* Localizable.strings */,
 			);
 			path = NeoSim;
 			sourceTree = "<group>";
@@ -150,6 +198,72 @@
 			path = NeoSimUITests;
 			sourceTree = "<group>";
 		};
+		FF4E939F2BD65E3900AD990A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93AB2BD6604000AD990A /* PreviewModels.swift */,
+				FF4E93B22BD6613400AD990A /* ImageHelper.swift */,
+				FF4E93B42BD662A200AD990A /* TextHelper.swift */,
+				FF4E93B62BD662F900AD990A /* Enums.swift */,
+				FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF4E93A02BD65E3F00AD990A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93A42BD65E8700AD990A /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF4E93A12BD65E4400AD990A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93C62BD6685100AD990A /* AuthViewModel.swift */,
+				FF4E93C82BD668A400AD990A /* AlertViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF4E93A22BD65E4900AD990A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93C42BD6677A00AD990A /* APIHelper.swift */,
+				FF4E93C22BD6671A00AD990A /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FF4E93A32BD65E5100AD990A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93A92BD65FF200AD990A /* IntroductionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF4E93A42BD65E8700AD990A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93A52BD65E9700AD990A /* Introduction.swift */,
+				FF4E93A72BD65FA800AD990A /* IntroductionPage.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		FF4E93B82BD663D700AD990A /* font */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E93BC2BD663E400AD990A /* Gilroy-Bold.ttf */,
+				FF4E93BA2BD663E300AD990A /* Gilroy-Medium.ttf */,
+				FF4E93B92BD663E300AD990A /* Gilroy-Regular.ttf */,
+				FF4E93BB2BD663E400AD990A /* Gilroy-SemiBold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,6 +288,7 @@
 				FF4E93952BD4FC3000AD990A /* FirebaseFunctions */,
 				FF4E93972BD4FC3000AD990A /* FirebaseMessaging */,
 				FF4E93992BD4FC3000AD990A /* FirebaseStorage */,
+				FF4E93B02BD6611D00AD990A /* SDWebImageSwiftUI */,
 			);
 			productName = NeoSim;
 			productReference = FF4E935D2BD2FB6400AD990A /* NeoSim.app */;
@@ -249,6 +364,7 @@
 			mainGroup = FF4E93542BD2FB6300AD990A;
 			packageReferences = (
 				FF4E938C2BD4FC3000AD990A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FF4E93AF2BD6611D00AD990A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = FF4E935E2BD2FB6400AD990A /* Products */;
 			projectDirPath = "";
@@ -266,10 +382,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4E93BD2BD663E400AD990A /* Gilroy-Regular.ttf in Resources */,
+				FF4E93BE2BD663E400AD990A /* Gilroy-Medium.ttf in Resources */,
 				FF4E93682BD2FB6600AD990A /* Preview Assets.xcassets in Resources */,
 				FF4E939C2BD4FC9400AD990A /* GoogleService-Info.plist in Resources */,
+				FF4E93D02BD66EB800AD990A /* Localizable.strings in Resources */,
+				FF4E93BF2BD663E400AD990A /* Gilroy-SemiBold.ttf in Resources */,
 				FF4E938B2BD4FB6C00AD990A /* .gitignore in Resources */,
 				FF4E93652BD2FB6600AD990A /* Assets.xcassets in Resources */,
+				FF4E93C02BD663E400AD990A /* Gilroy-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +417,20 @@
 			files = (
 				FF4E939E2BD4FCAE00AD990A /* AppDelegate.swift in Sources */,
 				FF4E93632BD2FB6400AD990A /* ContentView.swift in Sources */,
+				FF4E93B52BD662A200AD990A /* TextHelper.swift in Sources */,
+				FF4E93C92BD668A400AD990A /* AlertViewModel.swift in Sources */,
+				FF4E93C32BD6671A00AD990A /* AuthService.swift in Sources */,
+				FF4E93B32BD6613400AD990A /* ImageHelper.swift in Sources */,
+				FF4E93AE2BD660B700AD990A /* Credentials.swift in Sources */,
+				FF4E93A82BD65FA800AD990A /* IntroductionPage.swift in Sources */,
+				FF4E93AA2BD65FF200AD990A /* IntroductionModel.swift in Sources */,
+				FF4E93CD2BD66B3C00AD990A /* ButtonHelper.swift in Sources */,
+				FF4E93AC2BD6604000AD990A /* PreviewModels.swift in Sources */,
 				FF4E93612BD2FB6400AD990A /* NeoSimApp.swift in Sources */,
+				FF4E93C72BD6685100AD990A /* AuthViewModel.swift in Sources */,
+				FF4E93C52BD6677A00AD990A /* APIHelper.swift in Sources */,
+				FF4E93A62BD65E9700AD990A /* Introduction.swift in Sources */,
+				FF4E93B72BD662F900AD990A /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +465,17 @@
 			targetProxy = FF4E93782BD2FB6700AD990A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4E93CE2BD66EB800AD990A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4E93CF2BD66EB800AD990A /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF4E937F2BD2FB6700AD990A /* Debug */ = {
@@ -463,6 +608,8 @@
 				DEVELOPMENT_TEAM = Z9LZT27D3M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoSim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NeoSim;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -476,9 +623,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -493,6 +644,8 @@
 				DEVELOPMENT_TEAM = Z9LZT27D3M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoSim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NeoSim;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,9 +659,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xpn.development.NeoSim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -638,6 +795,14 @@
 				minimumVersion = 10.24.0;
 			};
 		};
+		FF4E93AF2BD6611D00AD990A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -675,6 +840,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FF4E938C2BD4FC3000AD990A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		FF4E93B02BD6611D00AD990A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF4E93AF2BD6611D00AD990A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
