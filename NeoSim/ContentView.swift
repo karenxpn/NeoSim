@@ -9,14 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @StateObject private var authVM = AuthViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        Group {
+            if authVM.loading {
+                ProgressView()
+            } else if authVM.user != nil {
+                TextHelper(text: "Authenticated")
+            } else {
+                Introduction()
+            }
+        }.onAppear {
+            authVM.listenToAuthState()
         }
-        .padding()
     }
 }
 

@@ -13,8 +13,8 @@ struct IntroductionPage: View {
         
         VStack (spacing: 24) {
             ImageHelper(url: page.image, contentMode: .fill)
-                .frame(width: UIScreen.main.bounds.width * 0.6,
-                       height: UIScreen.main.bounds.height * 0.4)
+                .frame(width: UIScreen.main.bounds.width * 0.7,
+                       height: UIScreen.main.bounds.height * 0.35)
             
             VStack(spacing: 16) {
                 TextHelper(text: page.title, fontName: .semiBold, fontSize: 24)
