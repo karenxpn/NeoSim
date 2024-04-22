@@ -12,3 +12,8 @@ enum FontEnum: String {
     case bold = "Gilroy-Bold"
     case medium = "Gilroy-Medium"
 }
+
+
+enum Paths: String {
+    case introduction
+}
