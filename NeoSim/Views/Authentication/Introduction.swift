@@ -13,7 +13,9 @@ struct Introduction: View {
         VStack(spacing: 20) {
             
             if authVM.loading {
+                Spacer()
                 ProgressView()
+                Spacer()
             } else {
                 TabView{
                     ForEach(authVM.introductionPages, id: \.id){ page in

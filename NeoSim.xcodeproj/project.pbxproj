@@ -42,6 +42,7 @@
 		FF4E93C72BD6685100AD990A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93C62BD6685100AD990A /* AuthViewModel.swift */; };
 		FF4E93C92BD668A400AD990A /* AlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93C82BD668A400AD990A /* AlertViewModel.swift */; };
 		FF4E93CD2BD66B3C00AD990A /* ButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */; };
+		FF4E93D02BD66EB800AD990A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93CE2BD66EB800AD990A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		FF4E93C62BD6685100AD990A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		FF4E93C82BD668A400AD990A /* AlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModel.swift; sourceTree = "<group>"; };
 		FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHelper.swift; sourceTree = "<group>"; };
+		FF4E93CF2BD66EB800AD990A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				FF4E93662BD2FB6600AD990A /* Preview Content */,
 				FF4E939D2BD4FCAE00AD990A /* AppDelegate.swift */,
 				FF4E93AD2BD660B700AD990A /* Credentials.swift */,
+				FF4E93CE2BD66EB800AD990A /* Localizable.strings */,
 			);
 			path = NeoSim;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				FF4E93BE2BD663E400AD990A /* Gilroy-Medium.ttf in Resources */,
 				FF4E93682BD2FB6600AD990A /* Preview Assets.xcassets in Resources */,
 				FF4E939C2BD4FC9400AD990A /* GoogleService-Info.plist in Resources */,
+				FF4E93D02BD66EB800AD990A /* Localizable.strings in Resources */,
 				FF4E93BF2BD663E400AD990A /* Gilroy-SemiBold.ttf in Resources */,
 				FF4E938B2BD4FB6C00AD990A /* .gitignore in Resources */,
 				FF4E93652BD2FB6600AD990A /* Assets.xcassets in Resources */,
@@ -461,6 +465,17 @@
 			targetProxy = FF4E93782BD2FB6700AD990A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4E93CE2BD66EB800AD990A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4E93CF2BD66EB800AD990A /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF4E937F2BD2FB6700AD990A /* Debug */ = {

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  NeoSim
+
+  Created by Karen Mirakyan on 22.04.24.
+  
+*/
+
+"createAccount" = "Create Account";
+"signIn" = "Sign In";
