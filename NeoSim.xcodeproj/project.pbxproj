@@ -115,6 +115,11 @@
 		FF4E935F2BD2FB6400AD990A /* NeoSim */ = {
 			isa = PBXGroup;
 			children = (
+				FF4E93A32BD65E5100AD990A /* Models */,
+				FF4E93A22BD65E4900AD990A /* Services */,
+				FF4E93A12BD65E4400AD990A /* ViewModels */,
+				FF4E93A02BD65E3F00AD990A /* Views */,
+				FF4E939F2BD65E3900AD990A /* Utils */,
 				FF4E93602BD2FB6400AD990A /* NeoSimApp.swift */,
 				FF4E93622BD2FB6400AD990A /* ContentView.swift */,
 				FF4E93642BD2FB6600AD990A /* Assets.xcassets */,
@@ -148,6 +153,41 @@
 				FF4E937D2BD2FB6700AD990A /* NeoSimUITestsLaunchTests.swift */,
 			);
 			path = NeoSimUITests;
+			sourceTree = "<group>";
+		};
+		FF4E939F2BD65E3900AD990A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF4E93A02BD65E3F00AD990A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF4E93A12BD65E4400AD990A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF4E93A22BD65E4900AD990A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FF4E93A32BD65E5100AD990A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
