@@ -8,12 +8,18 @@
 import Foundation
 import FirebaseAuth
 
-
 class AuthViewModel: AlertViewModel, ObservableObject {
     @Published var loading: Bool = false
     @Published var showAlert: Bool = false
     @Published var alertMessage: String = ""
     
+    @Published var phone = PhoneModel(id: "0012",
+                                      name: "Armenia",
+                                      flag: "🇦🇲",
+                                      code: "AM",
+                                      dial_code: "+374",
+                                      pattern: "## ### ###",
+                                      limit: 17)
     
     @Published var introductionPages = [IntroductionModel]()
     

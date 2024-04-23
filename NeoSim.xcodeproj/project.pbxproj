@@ -44,6 +44,11 @@
 		FF4E93CD2BD66B3C00AD990A /* ButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */; };
 		FF4E93D02BD66EB800AD990A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF4E93CE2BD66EB800AD990A /* Localizable.strings */; };
 		FF9572E62BD7B238006DA640 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572E52BD7B238006DA640 /* Authentication.swift */; };
+		FF9572EB2BD7BE30006DA640 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572EA2BD7BE30006DA640 /* CountryPicker.swift */; };
+		FF9572F62BD7C2DA006DA640 /* CountryNumbers.json in Resources */ = {isa = PBXBuildFile; fileRef = FF9572F52BD7C2DA006DA640 /* CountryNumbers.json */; };
+		FF9572F82BD7C2FD006DA640 /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572F72BD7C2FD006DA640 /* PhoneModel.swift */; };
+		FF9572FA2BD7CBA4006DA640 /* ViewPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572F92BD7CBA4006DA640 /* ViewPaths.swift */; };
+		FF9572FC2BD7CBAC006DA640 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572FB2BD7CBAC006DA640 /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +102,11 @@
 		FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHelper.swift; sourceTree = "<group>"; };
 		FF4E93CF2BD66EB800AD990A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FF9572E52BD7B238006DA640 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		FF9572EA2BD7BE30006DA640 /* CountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
+		FF9572F52BD7C2DA006DA640 /* CountryNumbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryNumbers.json; sourceTree = "<group>"; };
+		FF9572F72BD7C2FD006DA640 /* PhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
+		FF9572F92BD7CBA4006DA640 /* ViewPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPaths.swift; sourceTree = "<group>"; };
+		FF9572FB2BD7CBAC006DA640 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				FF4E93C12BD6642700AD990A /* Info.plist */,
+				FF9572F52BD7C2DA006DA640 /* CountryNumbers.json */,
 				FF4E93B82BD663D700AD990A /* font */,
 				FF4E93A32BD65E5100AD990A /* Models */,
 				FF4E93A22BD65E4900AD990A /* Services */,
@@ -208,6 +219,7 @@
 				FF4E93B42BD662A200AD990A /* TextHelper.swift */,
 				FF4E93B62BD662F900AD990A /* Enums.swift */,
 				FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */,
+				FF9572F92BD7CBA4006DA640 /* ViewPaths.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -223,8 +235,9 @@
 		FF4E93A12BD65E4400AD990A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				FF4E93C62BD6685100AD990A /* AuthViewModel.swift */,
 				FF4E93C82BD668A400AD990A /* AlertViewModel.swift */,
+				FF4E93C62BD6685100AD990A /* AuthViewModel.swift */,
+				FF9572FB2BD7CBAC006DA640 /* ViewRouter.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -242,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				FF4E93A92BD65FF200AD990A /* IntroductionModel.swift */,
+				FF9572F72BD7C2FD006DA640 /* PhoneModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +266,7 @@
 				FF4E93A52BD65E9700AD990A /* Introduction.swift */,
 				FF4E93A72BD65FA800AD990A /* IntroductionPage.swift */,
 				FF9572E52BD7B238006DA640 /* Authentication.swift */,
+				FF9572EA2BD7BE30006DA640 /* CountryPicker.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -386,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF4E93BD2BD663E400AD990A /* Gilroy-Regular.ttf in Resources */,
+				FF9572F62BD7C2DA006DA640 /* CountryNumbers.json in Resources */,
 				FF4E93BE2BD663E400AD990A /* Gilroy-Medium.ttf in Resources */,
 				FF4E93682BD2FB6600AD990A /* Preview Assets.xcassets in Resources */,
 				FF4E939C2BD4FC9400AD990A /* GoogleService-Info.plist in Resources */,
@@ -422,6 +438,7 @@
 				FF4E93632BD2FB6400AD990A /* ContentView.swift in Sources */,
 				FF4E93B52BD662A200AD990A /* TextHelper.swift in Sources */,
 				FF4E93C92BD668A400AD990A /* AlertViewModel.swift in Sources */,
+				FF9572F82BD7C2FD006DA640 /* PhoneModel.swift in Sources */,
 				FF4E93C32BD6671A00AD990A /* AuthService.swift in Sources */,
 				FF4E93B32BD6613400AD990A /* ImageHelper.swift in Sources */,
 				FF4E93AE2BD660B700AD990A /* Credentials.swift in Sources */,
@@ -430,10 +447,13 @@
 				FF4E93AA2BD65FF200AD990A /* IntroductionModel.swift in Sources */,
 				FF4E93CD2BD66B3C00AD990A /* ButtonHelper.swift in Sources */,
 				FF4E93AC2BD6604000AD990A /* PreviewModels.swift in Sources */,
+				FF9572FA2BD7CBA4006DA640 /* ViewPaths.swift in Sources */,
 				FF4E93612BD2FB6400AD990A /* NeoSimApp.swift in Sources */,
+				FF9572FC2BD7CBAC006DA640 /* ViewRouter.swift in Sources */,
 				FF4E93C72BD6685100AD990A /* AuthViewModel.swift in Sources */,
 				FF4E93C52BD6677A00AD990A /* APIHelper.swift in Sources */,
 				FF4E93A62BD65E9700AD990A /* Introduction.swift in Sources */,
+				FF9572EB2BD7BE30006DA640 /* CountryPicker.swift in Sources */,
 				FF4E93B72BD662F900AD990A /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
