@@ -58,7 +58,7 @@ struct Authentication: View {
                 
                 ButtonHelper(disabled: phone.count != authVM.phone.pattern.count,
                              label: NSLocalizedString("next", comment: "")) {
-                    viewRouter.pushAuthPath(.verifyPhone)
+                    viewRouter.pushAuthPath(.verifyPhone(phone: authVM.phone.dial_code + phone))
                 }
             }.padding(.top, 16)
                 .padding(.horizontal, 32)

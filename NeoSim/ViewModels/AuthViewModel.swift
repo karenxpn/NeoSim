@@ -21,6 +21,8 @@ class AuthViewModel: AlertViewModel, ObservableObject {
                                       pattern: "## ### ###",
                                       limit: 17)
     
+    @Published var OTP: String = ""
+    
     @Published var introductionPages = [IntroductionModel]()
     
     var manager: AuthServiceProtocol

@@ -52,6 +52,7 @@
 		FF9572FE2BD7D104006DA640 /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572FD2BD7D104006DA640 /* OTPTextFieldView.swift */; };
 		FF9573002BD7D18D006DA640 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572FF2BD7D18D006DA640 /* Extensions.swift */; };
 		FF9573022BD7D287006DA640 /* VerifyPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573012BD7D287006DA640 /* VerifyPhoneNumber.swift */; };
+		FF9573042BD7D2CD006DA640 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573032BD7D2CD006DA640 /* Loading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		FF9572FD2BD7D104006DA640 /* OTPTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldView.swift; sourceTree = "<group>"; };
 		FF9572FF2BD7D18D006DA640 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FF9573012BD7D287006DA640 /* VerifyPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumber.swift; sourceTree = "<group>"; };
+		FF9573032BD7D2CD006DA640 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				FF4E93CC2BD66B3C00AD990A /* ButtonHelper.swift */,
 				FF9572F92BD7CBA4006DA640 /* ViewPaths.swift */,
 				FF9572FF2BD7D18D006DA640 /* Extensions.swift */,
+				FF9573032BD7D2CD006DA640 /* Loading.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				FF4E93AE2BD660B700AD990A /* Credentials.swift in Sources */,
 				FF4E93A82BD65FA800AD990A /* IntroductionPage.swift in Sources */,
 				FF9572E62BD7B238006DA640 /* Authentication.swift in Sources */,
+				FF9573042BD7D2CD006DA640 /* Loading.swift in Sources */,
 				FF4E93AA2BD65FF200AD990A /* IntroductionModel.swift in Sources */,
 				FF4E93CD2BD66B3C00AD990A /* ButtonHelper.swift in Sources */,
 				FF4E93AC2BD6604000AD990A /* PreviewModels.swift in Sources */,

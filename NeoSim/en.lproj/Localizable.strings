@@ -12,3 +12,11 @@
 "welcomeBack" = "Wellcome back you’ve\nbeen missed!";
 "next" = "Next";
 "enterYourPhoneNumber" = "Enter your phone number";
+"loading" = "Loading...";
+"error" = "Error";
+"gotIt" = "Got it";
+"verifyItsYou" = "Verify it’s you";
+"weSentCode" = "We've sent the code to ";
+"enterItHere" = "Enter it here to verify your identity";
+"confirm" = "Confirm";
+"resendCode" = "Resend Code";

@@ -18,8 +18,8 @@ class ViewRouter: ObservableObject {
         switch page {
         case .enterPhone:
             Authentication()
-        case .verifyPhone:
-            Text("Verify Phone")
+        case .verifyPhone(let phone):
+            VerifyPhoneNumber(phone: phone)
         }
     }
 }

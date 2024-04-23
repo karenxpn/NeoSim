@@ -8,5 +8,5 @@
 import Foundation
 enum AuthPaths: Equatable, Hashable {
     case enterPhone
-    case verifyPhone
+    case verifyPhone(phone: String)
 }
