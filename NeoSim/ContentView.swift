@@ -10,14 +10,20 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject private var authVM = AuthViewModel()
-    
+    @EnvironmentObject var viewRouter: ViewRouter
+
     var body: some View {
         
         Group {
             if authVM.loading {
                 ProgressView()
             } else if authVM.user != nil {
-                TextHelper(text: "Authenticated")
+                Button {
+                    viewRouter.authPath.removeAll()
+                    authVM.signOut()
+                } label: {
+                    TextHelper(text: "Authenticated")
+                }
             } else {
                 Introduction()
             }

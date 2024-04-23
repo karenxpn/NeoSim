@@ -64,4 +64,61 @@ class AuthViewModel: AlertViewModel, ObservableObject {
             }
         }
     }
+    
+    @MainActor func sendVerificationCode(send: Bool = true, phone: String, action: @escaping () -> ()) {
+        loading = true
+        Task {
+            let result = await manager.sendVerificationCode(phone: phone)
+            switch result {
+            case .failure(let error):
+                self.makeAlert(with: error, message: &alertMessage, alert: &showAlert)
+            case .success(()):
+                if send {
+                    action()
+                } else {
+                    break
+                }
+            }
+            
+            if !Task.isCancelled {
+                loading = false
+            }
+        }
+    }
+    
+    @MainActor func checkVerificationCode(auth: Bool = true) {
+        loading = true
+        Task {
+            
+            let result = await manager.checkVerificationCode(code: OTP)
+            switch result {
+            case .failure(let error):
+                self.makeAlert(with: error, message: &alertMessage, alert: &showAlert)
+            case .success(let uid):
+                print("authenticated")
+            }
+            
+            if !Task.isCancelled {
+                loading = false
+            }
+        }
+    }
+    
+    @MainActor func signOut() {
+        loading = true
+        Task {
+            let result = await manager.signOut()
+            switch result {
+            case .failure(let error):
+                self.makeAlert(with: error, message: &alertMessage, alert: &showAlert)
+            case .success(()):
+                break
+            }
+            
+            
+            if !Task.isCancelled {
+                loading = false
+            }
+        }
+    }
 }

@@ -28,7 +28,7 @@ struct VerifyPhoneNumber: View {
                 HStack {
                     Spacer()
                     Button {
-//                        authVM.sendVerificationCode(send: false)
+                        authVM.sendVerificationCode(send: false, phone: phone, action: { })
                         authVM.OTP = ""
                     } label: {
                         TextHelper(text: NSLocalizedString("resendCode", comment: ""), color: .green, fontName: .bold, fontSize: 16)
@@ -40,7 +40,7 @@ struct VerifyPhoneNumber: View {
                 Spacer()
                 ButtonHelper(disabled: authVM.OTP.count != 6,
                              label: NSLocalizedString("confirm", comment: "")) {
-//                    authVM.checkVerificationCode(auth: auth)
+                    authVM.checkVerificationCode(auth: auth)
                 }
             }.ignoresSafeArea(.keyboard, edges: .bottom)
                 .padding(24)
