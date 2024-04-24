@@ -53,6 +53,8 @@
 		FF9573002BD7D18D006DA640 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572FF2BD7D18D006DA640 /* Extensions.swift */; };
 		FF9573022BD7D287006DA640 /* VerifyPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573012BD7D287006DA640 /* VerifyPhoneNumber.swift */; };
 		FF9573042BD7D2CD006DA640 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573032BD7D2CD006DA640 /* Loading.swift */; };
+		FF9573082BD8FF75006DA640 /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573072BD8FF75006DA640 /* MockAuthService.swift */; };
+		FF95730A2BD8FFED006DA640 /* AuthViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573092BD8FFED006DA640 /* AuthViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		FF9572FF2BD7D18D006DA640 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FF9573012BD7D287006DA640 /* VerifyPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumber.swift; sourceTree = "<group>"; };
 		FF9573032BD7D2CD006DA640 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		FF9573072BD8FF75006DA640 /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
+		FF9573092BD8FFED006DA640 /* AuthViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,8 @@
 		FF4E93702BD2FB6700AD990A /* NeoSimTests */ = {
 			isa = PBXGroup;
 			children = (
+				FF9573062BD8FF69006DA640 /* Services */,
+				FF9573052BD8FF60006DA640 /* ViewModels */,
 				FF4E93712BD2FB6700AD990A /* NeoSimTests.swift */,
 			);
 			path = NeoSimTests;
@@ -292,6 +298,22 @@
 				FF4E93BB2BD663E400AD990A /* Gilroy-SemiBold.ttf */,
 			);
 			path = font;
+			sourceTree = "<group>";
+		};
+		FF9573052BD8FF60006DA640 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF9573092BD8FFED006DA640 /* AuthViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF9573062BD8FF69006DA640 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FF9573072BD8FF75006DA640 /* MockAuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +501,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF4E93722BD2FB6700AD990A /* NeoSimTests.swift in Sources */,
+				FF9573082BD8FF75006DA640 /* MockAuthService.swift in Sources */,
+				FF95730A2BD8FFED006DA640 /* AuthViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
