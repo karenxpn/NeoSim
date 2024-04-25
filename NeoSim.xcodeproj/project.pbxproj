@@ -55,6 +55,7 @@
 		FF9573042BD7D2CD006DA640 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573032BD7D2CD006DA640 /* Loading.swift */; };
 		FF9573082BD8FF75006DA640 /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573072BD8FF75006DA640 /* MockAuthService.swift */; };
 		FF95730A2BD8FFED006DA640 /* AuthViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9573092BD8FFED006DA640 /* AuthViewModelTests.swift */; };
+		FF95730C2BDA5F97006DA640 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95730B2BDA5F97006DA640 /* CustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		FF9573032BD7D2CD006DA640 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		FF9573072BD8FF75006DA640 /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
 		FF9573092BD8FFED006DA640 /* AuthViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModelTests.swift; sourceTree = "<group>"; };
+		FF95730B2BDA5F97006DA640 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				FF4E93A42BD65E8700AD990A /* Authentication */,
+				FF95730B2BDA5F97006DA640 /* CustomTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				FF9573022BD7D287006DA640 /* VerifyPhoneNumber.swift in Sources */,
 				FF4E93632BD2FB6400AD990A /* ContentView.swift in Sources */,
 				FF4E93B52BD662A200AD990A /* TextHelper.swift in Sources */,
+				FF95730C2BDA5F97006DA640 /* CustomTabView.swift in Sources */,
 				FF4E93C92BD668A400AD990A /* AlertViewModel.swift in Sources */,
 				FF9572F82BD7C2FD006DA640 /* PhoneModel.swift in Sources */,
 				FF4E93C32BD6671A00AD990A /* AuthService.swift in Sources */,
