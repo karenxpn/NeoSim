@@ -11,6 +11,8 @@ import SwiftUI
 class ViewRouter: ObservableObject {
     @Published var authPath = [AuthPaths]()
     
+    @Published var tab: Int = 0
+    
     func pushAuthPath(_ page: AuthPaths) { authPath.append(page) }
     
     @ViewBuilder
