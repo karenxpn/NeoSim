@@ -28,9 +28,8 @@ struct CustomTabView: View {
                             Ellipse()
                                 .trim(from: 0.5, to: 1)
                                 .fill(colorScheme == .dark ? .black : .white)
-                                .frame(width: geometry.size.width - 80,height: 11)
-                                .cornerRadius(10)
-                                .offset(y: 6)
+                                .frame(width: geometry.size.width - 53, height: 22)
+                                .offset(y: 13)
                             
                             Rectangle()
                                 .fill(colorScheme == .dark ? .black : .white)
