@@ -10,10 +10,28 @@ import SwiftUI
 
 class ViewRouter: ObservableObject {
     @Published var authPath = [AuthPaths]()
+    @Published var homePath = [HomePaths]()
+    @Published var eSimsPath = [EsimsPaths]()
+    @Published var accountPath = [AccountPaths]()
     
     @Published var tab: Int = 0
     
     func pushAuthPath(_ page: AuthPaths) { authPath.append(page) }
+    
+    // add new view
+    func pushHomePath(_ page: HomePaths)                    { homePath.append(page) }
+    func pushEsimsPath(_ page: EsimsPaths)                  { eSimsPath.append(page) }
+    func pushAccountPath(_ page: AccountPaths)              { accountPath.append(page) }
+    
+    // pop one view
+    func popHomePath()              { homePath.removeLast() }
+    func popEsimsPath()             { eSimsPath.removeLast() }
+    func popAccountPath()           { accountPath.removeLast() }
+    
+    // pop root view
+    func popToHomeRoot()                { homePath.removeLast(homePath.count) }
+    func popToEsimsRoot()               { eSimsPath.removeLast(eSimsPath.count) }
+    func popToAccountRoot()             { accountPath.removeLast(accountPath.count) }
     
     @ViewBuilder
     func buildAuthView(page: AuthPaths) -> some View {
