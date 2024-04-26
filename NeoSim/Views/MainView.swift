@@ -14,15 +14,14 @@ struct MainView: View {
         ZStack( alignment: .bottom) {
             
             VStack {
-                
                 if viewRouter.tab == 0 {
-                    Text("Countries")
+                    Home()
                         .frame( minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                 } else if viewRouter.tab == 1 {
-                    Text("My eSims")
+                    ESims()
                         .frame( minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                 } else if viewRouter.tab == 2{
-                    Text("Profile")
+                    Account()
                         .frame( minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                 }
             }

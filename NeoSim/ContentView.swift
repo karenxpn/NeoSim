@@ -19,12 +19,6 @@ struct ContentView: View {
                 ProgressView()
             } else if authVM.user != nil {
                 MainView()
-//                Button {
-//                    viewRouter.authPath.removeAll()
-//                    authVM.signOut()
-//                } label: {
-//                    TextHelper(text: "Authenticated")
-//                }
             } else {
                 Introduction()
             }
