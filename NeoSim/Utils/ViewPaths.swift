@@ -10,3 +10,16 @@ enum AuthPaths: Equatable, Hashable {
     case enterPhone
     case verifyPhone(phone: String)
 }
+
+
+enum HomePaths: Equatable, Hashable {
+    
+}
+
+enum EsimsPaths: Equatable, Hashable {
+    
+}
+
+enum AccountPaths: Equatable, Hashable {
+    
+}

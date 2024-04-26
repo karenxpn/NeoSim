@@ -28,9 +28,8 @@ struct CustomTabView: View {
                             Ellipse()
                                 .trim(from: 0.5, to: 1)
                                 .fill(colorScheme == .dark ? .black : .white)
-                                .frame(width: geometry.size.width - 80,height: 11)
-                                .cornerRadius(10)
-                                .offset(y: 6)
+                                .frame(width: geometry.size.width - 53, height: 22)
+                                .offset(y: 13)
                             
                             Rectangle()
                                 .fill(colorScheme == .dark ? .black : .white)
@@ -46,19 +45,15 @@ struct CustomTabView: View {
                             
                             Spacer()
                             Button {
-//                                if viewRouter.tab == id {
-//                                    if id == 0 {
-//                                        viewRouter.popToHomeRoot()
-//                                    } else if id == 1 {
-//                                        viewRouter.popToCardRoot()
-//                                    } else if id == 2 {
-//                                        viewRouter.popToScanRoot()
-//                                    } else if id == 3 {
-//                                        viewRouter.popToAnalyticsRoot()
-//                                    } else if id == 4 {
-//                                        viewRouter.popToAccountRoot()
-//                                    }
-//                                }
+                                if viewRouter.tab == id {
+                                    if id == 0 {
+                                        viewRouter.popToHomeRoot()
+                                    } else if id == 1 {
+                                        viewRouter.popEsimsPath()
+                                    } else if id == 2 {
+                                        viewRouter.popToAccountRoot()
+                                    }
+                                }
                                 viewRouter.tab = id
                             } label: {
                                 VStack(spacing: 4) {
