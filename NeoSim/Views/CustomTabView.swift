@@ -46,19 +46,15 @@ struct CustomTabView: View {
                             
                             Spacer()
                             Button {
-//                                if viewRouter.tab == id {
-//                                    if id == 0 {
-//                                        viewRouter.popToHomeRoot()
-//                                    } else if id == 1 {
-//                                        viewRouter.popToCardRoot()
-//                                    } else if id == 2 {
-//                                        viewRouter.popToScanRoot()
-//                                    } else if id == 3 {
-//                                        viewRouter.popToAnalyticsRoot()
-//                                    } else if id == 4 {
-//                                        viewRouter.popToAccountRoot()
-//                                    }
-//                                }
+                                if viewRouter.tab == id {
+                                    if id == 0 {
+                                        viewRouter.popToHomeRoot()
+                                    } else if id == 1 {
+                                        viewRouter.popEsimsPath()
+                                    } else if id == 2 {
+                                        viewRouter.popToAccountRoot()
+                                    }
+                                }
                                 viewRouter.tab = id
                             } label: {
                                 VStack(spacing: 4) {
