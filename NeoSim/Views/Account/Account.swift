@@ -6,21 +6,54 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct Account: View {
     @EnvironmentObject var viewRouter: ViewRouter
-    @StateObject private var authVM = AuthViewModel()
+    @Environment(\.requestReview) var requestReview
 
     var body: some View {
         NavigationStack(path: $viewRouter.accountPath) {
-            Button {
-                viewRouter.authPath.removeAll()
-                authVM.signOut()
-            } label: {
-                TextHelper(text: "Authenticated")
-            }
+            ScrollView {
+                LazyVStack(spacing: 16, content: {
+                    AccountCell(title: "accountInfo"~, description: "accountInfoDescription"~) {
+                        
+                    }
+                    
+                    AccountCell(title: "attachedCreditCards"~, description: "attachedCreditCardsDescription"~) {
+                        
+                    }
+                    
+                    AccountToggleCell(title: "notifications"~, description: "notificationsDescription"~, value: .constant(true)) { value in
+                        
+                    }
+                    
+                    AccountToggleCell(title: "emailPromotion"~, description: "emailPromotionDescription"~, value: .constant(false)) { value in
+                        
+                    }
+                    
+                    AccountCell(title: "faq"~, description: "faqDescription"~) {
+                        
+                    }
+                    
+                    AccountCell(title: "rateUs"~, description: "rateUsDescription"~) {
+                        requestReview()
+                    }
+                }).padding(32)
+            }.scrollIndicators(.hidden)
+                .navigationTitle("")
+                .navigationBarTitleDisplayMode(.inline)
+                .padding(.top, 1)
+                .toolbar { toolbar }
         }
 
+    }
+    
+    @ToolbarContentBuilder
+    var toolbar: some ToolbarContent {
+        ToolbarItem(placement: .principal) {
+            TextHelper(text: "profile"~, fontSize: 16)
+        }
     }
 }
 

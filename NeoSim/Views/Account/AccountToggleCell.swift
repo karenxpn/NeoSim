@@ -21,6 +21,8 @@ struct AccountToggleCell: View {
                 Spacer()
                 
                 Toggle("", isOn: $value)
+                    .frame(height: 20)
+                    .scaleEffect(0.8)
                     .labelsHidden()
                     .tint(.appBlue)
                     .onChange(of: value) { oldValue, newValue in
