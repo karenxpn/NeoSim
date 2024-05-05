@@ -46,6 +46,10 @@
 		FF924CE72BE7830C0026B4B4 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF924CE62BE7830C0026B4B4 /* AccountCell.swift */; };
 		FF924CE92BE785210026B4B4 /* AccountToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF924CE82BE785210026B4B4 /* AccountToggleCell.swift */; };
 		FF924CEB2BE78B040026B4B4 /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF924CEA2BE78B040026B4B4 /* AccountInfo.swift */; };
+		FF924CED2BE7D63D0026B4B4 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF924CEC2BE7D63D0026B4B4 /* UserInfo.swift */; };
+		FF924CEF2BE7D6AC0026B4B4 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF924CEE2BE7D6AC0026B4B4 /* AccountService.swift */; };
+		FF924CF12BE7D78B0026B4B4 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF924CF02BE7D78B0026B4B4 /* CustomErrors.swift */; };
+		FF924CF32BE7D85E0026B4B4 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF924CF22BE7D85E0026B4B4 /* AccountViewModel.swift */; };
 		FF9572E62BD7B238006DA640 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572E52BD7B238006DA640 /* Authentication.swift */; };
 		FF9572EB2BD7BE30006DA640 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9572EA2BD7BE30006DA640 /* CountryPicker.swift */; };
 		FF9572F62BD7C2DA006DA640 /* CountryNumbers.json in Resources */ = {isa = PBXBuildFile; fileRef = FF9572F52BD7C2DA006DA640 /* CountryNumbers.json */; };
@@ -118,6 +122,10 @@
 		FF924CE62BE7830C0026B4B4 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
 		FF924CE82BE785210026B4B4 /* AccountToggleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountToggleCell.swift; sourceTree = "<group>"; };
 		FF924CEA2BE78B040026B4B4 /* AccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		FF924CEC2BE7D63D0026B4B4 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		FF924CEE2BE7D6AC0026B4B4 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		FF924CF02BE7D78B0026B4B4 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		FF924CF22BE7D85E0026B4B4 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		FF9572E52BD7B238006DA640 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		FF9572EA2BD7BE30006DA640 /* CountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
 		FF9572F52BD7C2DA006DA640 /* CountryNumbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryNumbers.json; sourceTree = "<group>"; };
@@ -275,6 +283,7 @@
 				FF4E93C82BD668A400AD990A /* AlertViewModel.swift */,
 				FF4E93C62BD6685100AD990A /* AuthViewModel.swift */,
 				FF9572FB2BD7CBAC006DA640 /* ViewRouter.swift */,
+				FF924CF22BE7D85E0026B4B4 /* AccountViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -284,6 +293,7 @@
 			children = (
 				FF4E93C42BD6677A00AD990A /* APIHelper.swift */,
 				FF4E93C22BD6671A00AD990A /* AuthService.swift */,
+				FF924CEE2BE7D6AC0026B4B4 /* AccountService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -293,6 +303,8 @@
 			children = (
 				FF4E93A92BD65FF200AD990A /* IntroductionModel.swift */,
 				FF9572F72BD7C2FD006DA640 /* PhoneModel.swift */,
+				FF924CEC2BE7D63D0026B4B4 /* UserInfo.swift */,
+				FF924CF02BE7D78B0026B4B4 /* CustomErrors.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -517,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9573002BD7D18D006DA640 /* Extensions.swift in Sources */,
+				FF924CF12BE7D78B0026B4B4 /* CustomErrors.swift in Sources */,
 				FF924CE92BE785210026B4B4 /* AccountToggleCell.swift in Sources */,
 				FF4E939E2BD4FCAE00AD990A /* AppDelegate.swift in Sources */,
 				FF9573022BD7D287006DA640 /* VerifyPhoneNumber.swift in Sources */,
@@ -534,10 +547,12 @@
 				FF9573042BD7D2CD006DA640 /* Loading.swift in Sources */,
 				FF4E93AA2BD65FF200AD990A /* IntroductionModel.swift in Sources */,
 				FF4E93CD2BD66B3C00AD990A /* ButtonHelper.swift in Sources */,
+				FF924CEF2BE7D6AC0026B4B4 /* AccountService.swift in Sources */,
 				FF4E93AC2BD6604000AD990A /* PreviewModels.swift in Sources */,
 				FF924CE72BE7830C0026B4B4 /* AccountCell.swift in Sources */,
 				FF9572FA2BD7CBA4006DA640 /* ViewPaths.swift in Sources */,
 				FF4E93612BD2FB6400AD990A /* NeoSimApp.swift in Sources */,
+				FF924CED2BE7D63D0026B4B4 /* UserInfo.swift in Sources */,
 				FF9573152BDB96B5006DA640 /* ESims.swift in Sources */,
 				FF95730E2BDB9409006DA640 /* MainView.swift in Sources */,
 				FF9573172BDB96BD006DA640 /* Home.swift in Sources */,
@@ -545,6 +560,7 @@
 				FF4E93C72BD6685100AD990A /* AuthViewModel.swift in Sources */,
 				FF4E93C52BD6677A00AD990A /* APIHelper.swift in Sources */,
 				FF4E93A62BD65E9700AD990A /* Introduction.swift in Sources */,
+				FF924CF32BE7D85E0026B4B4 /* AccountViewModel.swift in Sources */,
 				FF924CEB2BE78B040026B4B4 /* AccountInfo.swift in Sources */,
 				FF9572EB2BD7BE30006DA640 /* CountryPicker.swift in Sources */,
 				FF9572FE2BD7D104006DA640 /* OTPTextFieldView.swift in Sources */,
