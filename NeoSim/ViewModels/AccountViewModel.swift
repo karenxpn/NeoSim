@@ -11,7 +11,7 @@ class AccountViewModel: AlertViewModel, ObservableObject {
     @Published var showAlert: Bool = false
     @Published var alertMessage: String = ""
     
-    @Published var info: UserInfo?
+    @Published var info: UserInfoViewModel?
     
     var manager: UserServiceProtocol
     init(manager: UserServiceProtocol = UserService.shared) {
@@ -26,7 +26,7 @@ class AccountViewModel: AlertViewModel, ObservableObject {
             case .failure(let error):
                 self.makeAlert(with: error, message: &alertMessage, alert: &showAlert)
             case .success(let info):
-                self.info = info
+                self.info = UserInfoViewModel(model: info)
             }
             
             if !Task.isCancelled {
