@@ -68,6 +68,7 @@ struct Authentication: View {
             
             Spacer()
         }.padding(.top, 50)
+            .navigationTitle("")
             .toolbar(.hidden)
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
