@@ -21,5 +21,7 @@ enum EsimsPaths: Equatable, Hashable {
 }
 
 enum AccountPaths: Equatable, Hashable {
-    
+    case info
+    case cards
+    case faq
 }

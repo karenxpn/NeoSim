@@ -13,20 +13,20 @@ struct AccountCell: View {
     let action: () -> ()
     
     var body: some View {
-        
-        VStack(alignment: .leading, spacing: 10) {
-            HStack {
-                TextHelper(text: title, fontSize: 14)
-                Spacer()
-                
-                Button {
-                    action()
-                } label: {
+        Button {
+            action()
+        } label: {
+            VStack(alignment: .leading, spacing: 10) {
+                HStack {
+                    TextHelper(text: title, fontSize: 14)
+                    Spacer()
+
                     Image("arrow-right")
                 }
+                
+                TextHelper(text: description, color: .appSuperLightGray, fontSize: 10)
+                    .multilineTextAlignment(.leading)
             }
-            
-            TextHelper(text: description, color: .appSuperLightGray, fontSize: 10)
         }
     }
 }

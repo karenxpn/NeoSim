@@ -17,11 +17,11 @@ struct Account: View {
             ScrollView {
                 LazyVStack(spacing: 16, content: {
                     AccountCell(title: "accountInfo"~, description: "accountInfoDescription"~) {
-                        
+                        viewRouter.pushAccountPath(.info)
                     }
                     
                     AccountCell(title: "attachedCreditCards"~, description: "attachedCreditCardsDescription"~) {
-                        
+                        viewRouter.pushAccountPath(.cards)
                     }
                     
                     AccountToggleCell(title: "notifications"~, description: "notificationsDescription"~, value: .constant(true)) { value in
@@ -33,7 +33,7 @@ struct Account: View {
                     }
                     
                     AccountCell(title: "faq"~, description: "faqDescription"~) {
-                        
+                        viewRouter.pushAccountPath(.faq)
                     }
                     
                     AccountCell(title: "rateUs"~, description: "rateUsDescription"~) {
@@ -45,6 +45,9 @@ struct Account: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .padding(.top, 1)
                 .toolbar { toolbar }
+                .navigationDestination(for: AccountPaths.self) { page in
+                    viewRouter.buildAccountView(page: page)
+                }
         }
 
     }
