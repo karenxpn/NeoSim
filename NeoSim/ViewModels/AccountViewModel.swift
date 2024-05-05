@@ -11,7 +11,7 @@ class AccountViewModel: AlertViewModel, ObservableObject {
     @Published var showAlert: Bool = false
     @Published var alertMessage: String = ""
     
-    @Published var info: UserInfoViewModel?
+    @Published var info: UserInfoViewModel = UserInfoViewModel(model: UserInfo())
     
     var manager: UserServiceProtocol
     init(manager: UserServiceProtocol = UserService.shared) {

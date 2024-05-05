@@ -36,3 +36,9 @@
 "faqDescription" = "Rate our app in order to get new updates and help us to fix something that you don’t like";
 "rateUs" = "Rate Us";
 "rateUsDescription" = "Rate our app in order to get new updates and help us to fix something that you don’t like";
+"fullName" = "Name and Surname";
+"enterYourFullName" = "Enter your Name and Surname ";
+"mail" = "Mail";
+"enterYourMail" = "Enter your mail";
+"phone" = "Phone";
+

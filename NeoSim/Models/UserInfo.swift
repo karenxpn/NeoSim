@@ -20,7 +20,18 @@ struct UserInfoViewModel {
         self.model = model
     }
     
-    var name: String?           { self.model.name }
-    var phone: String?          { self.model.phone == nil ? Auth.auth().currentUser?.phoneNumber : self.model.name }
-    var mail: String?           { self.model.mail}
+    var name: String {
+        get { self.model.name ?? "" }
+        set { self.model.name = newValue }
+    }
+    
+    var phone: String {
+        get { (self.model.phone == nil ? Auth.auth().currentUser?.phoneNumber : self.model.name) ?? "" }
+        set { self.model.phone = newValue }
+    }
+    
+    var mail: String {
+        get { self.model.mail ?? "" }
+        set { self.model.mail = newValue }
+    }
 }
