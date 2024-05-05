@@ -47,3 +47,8 @@ struct RoundedCorner: Shape {
         return Path(path.cgPath)
     }
 }
+
+postfix operator ~
+postfix func ~ (string: String) -> String {
+    return NSLocalizedString(string, comment: "")
+}

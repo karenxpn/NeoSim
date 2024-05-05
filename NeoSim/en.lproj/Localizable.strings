@@ -24,3 +24,15 @@
 "countries" = "Countries";
 "myEsims" = "My eSims";
 "profile" = "Profile";
+"accountInfo" = "Account Info";
+"accountInfoDescription" = "Rate our app in order to get new updates and help us to fix something that you don’t like";
+"attachedCreditCards" = "Attached Credit Cards";
+"attachedCreditCardsDescription" = "Rate our app in order to get new updates and help us to fix something that you don’t like";
+"notifications" = "Notifications";
+"notificationsDescription" = "Block advertisements, trackers and malware.";
+"emailPromotion" = "Email Promotion";
+"emailPromotionDescription" = "Allows certain apps or IPs to be excluded from the vpn traffic.";
+"faq" = "FAQ";
+"faqDescription" = "Rate our app in order to get new updates and help us to fix something that you don’t like";
+"rateUs" = "Rate Us";
+"rateUsDescription" = "Rate our app in order to get new updates and help us to fix something that you don’t like";
