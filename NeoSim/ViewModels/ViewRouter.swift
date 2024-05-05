@@ -47,7 +47,7 @@ class ViewRouter: ObservableObject {
     func buildAccountView(page: AccountPaths) -> some View {
         switch page {
         case .info:
-            Text( "Account info" )
+            AccountInfo()
         case .cards:
             Text( "Attached cards" )
         case .faq:

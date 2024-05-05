@@ -62,4 +62,5 @@ struct Account: View {
 
 #Preview {
     Account()
+        .environmentObject(ViewRouter())
 }
