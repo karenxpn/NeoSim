@@ -9,29 +9,7 @@ import Foundation
 import FirebaseAuth
 
 struct UserInfo: Codable {
-    var name: String?
-    var phone: String?
-    var mail: String?
-}
-
-struct UserInfoViewModel {
-    var model: UserInfo
-    init(model: UserInfo) {
-        self.model = model
-    }
-    
-    var name: String {
-        get { self.model.name ?? "" }
-        set { self.model.name = newValue }
-    }
-    
-    var phone: String {
-        get { (self.model.phone == nil ? Auth.auth().currentUser?.phoneNumber : self.model.name) ?? "" }
-        set { self.model.phone = newValue }
-    }
-    
-    var mail: String {
-        get { self.model.mail ?? "" }
-        set { self.model.mail = newValue }
-    }
+    var name: String = Auth.auth().currentUser?.displayName ?? ""
+    var phone: String = Auth.auth().currentUser?.phoneNumber ?? ""
+    var mail: String = Auth.auth().currentUser?.email ?? ""
 }

@@ -94,7 +94,7 @@ class AuthViewModel: AlertViewModel, ObservableObject {
             switch result {
             case .failure(let error):
                 self.makeAlert(with: error, message: &alertMessage, alert: &showAlert)
-            case .success(let uid):
+            case .success(_):
                 print("authenticated")
             }
             
