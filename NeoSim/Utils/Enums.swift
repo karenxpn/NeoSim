@@ -16,4 +16,5 @@ enum FontEnum: String {
 
 enum Paths: String {
     case introduction
+    case users
 }

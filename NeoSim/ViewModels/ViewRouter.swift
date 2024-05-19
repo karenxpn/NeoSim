@@ -42,4 +42,16 @@ class ViewRouter: ObservableObject {
             VerifyPhoneNumber(phone: phone)
         }
     }
+    
+    @ViewBuilder
+    func buildAccountView(page: AccountPaths) -> some View {
+        switch page {
+        case .info:
+            AccountInfo()
+        case .cards:
+            Text( "Attached cards" )
+        case .faq:
+            Text( "FAQ" )
+        }
+    }
 }
