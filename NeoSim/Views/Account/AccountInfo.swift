@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AccountInfo: View {
     @StateObject private var accountVM = AccountViewModel()
+    @StateObject private var authVM = AuthViewModel()
     
     var body: some View {
         
@@ -47,6 +48,13 @@ struct AccountInfo: View {
                             accountVM.updateUserInfo()
                         }.padding(.top, 50)
                         
+                        Button {
+                            authVM.signOut()
+                        } label: {
+                            TextHelper(text: "singOut", color: .red)
+                                .padding()
+                        }.padding(.top, 20)
+
                     }
                 }.padding(.top, 50)
                     .padding(.horizontal, 32)

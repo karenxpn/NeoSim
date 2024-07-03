@@ -8,7 +8,7 @@
 import Foundation
 import FirebaseAuth
 
-class AuthViewModel: AlertViewModel, ObservableObject {
+final class AuthViewModel: AlertViewModel, ObservableObject {
     @Published var loading: Bool = false
     @Published var showAlert: Bool = false
     @Published var alertMessage: String = ""

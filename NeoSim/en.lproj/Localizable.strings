@@ -8,6 +8,7 @@
 
 "createAccount" = "Create Account";
 "signIn" = "Sign In";
+"signOut" = "Sign Out";
 "helloAgain" = "Hellow Again!";
 "welcomeBack" = "Wellcome back you’ve\nbeen missed!";
 "next" = "Next";
